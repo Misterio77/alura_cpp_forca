@@ -23,6 +23,7 @@ std::vector<char> chutes_errados;
 
 int main() {
 
+    std::cout << "Irineu" << std::endl;
     std::cout << "O que deseja fazer?" << std::endl;
     std::cout << "Jogar(1) ou Adicionar palavra ao banco de dados(2)." << std::endl;
     int escolha;
