@@ -31,6 +31,6 @@
       defaultApp = apps.${name};
 
       devShell =
-        pkgs.mkShell { buildInputs = with pkgs; [ make gcc valgrind gdb ]; };
+        pkgs.mkShell { buildInputs = with pkgs; [ gnumake gcc valgrind gdb ]; };
     });
 }
