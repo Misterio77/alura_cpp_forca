@@ -15,7 +15,7 @@
 
       packages.${name} = pkgs.stdenv.mkDerivation {
         pname = name;
-        version = "1.0";
+        version = "1.1";
         src = ./.;
         installPhase = ''
           mkdir -p $out/bin
